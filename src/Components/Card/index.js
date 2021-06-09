@@ -50,9 +50,9 @@ function Card (props) {
                 <div><span>63</span><span>Candidatos activos</span></div>
               </div>
               <div className="avatar-list">
-                <img  src={personImg} className="avatar" alt="Person Image"/>
-                <img  src={personImg} className="avatar-2" alt="Person Image"/>
-                <img  src={personImg} className="avatar-3" alt="Person Image"/>
+                <img src={personImg} className="avatar" alt="Person"/>
+                <img src={personImg} className="avatar-2" alt="Person"/>
+                <img src={personImg} className="avatar-3" alt="Person"/>
                 <Add />
               </div>
               <div className="views">

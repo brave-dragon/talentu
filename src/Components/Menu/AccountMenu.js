@@ -7,7 +7,7 @@ function AccountMenu() {
   return (
     <div className="account-menu">
       <Menu />
-      <img  src={personImg} className="" alt="Person Image"/>
+      <img src={personImg} className="" alt="Person"/>
     </div>
   )
 }

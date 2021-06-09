@@ -5,7 +5,7 @@ import './search.scss'
 function Search() {
   return (
     <div className="search-box">
-      <img  src={searchImg} className="" alt="Search Image"/>
+      <img src={searchImg} className="" alt="Search"/>
       <input className="search-input" type="text" placeholder="Busca candidatos, servicios, eventos, etc."/>
     </div>
   )
