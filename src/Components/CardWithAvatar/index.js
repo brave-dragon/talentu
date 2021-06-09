@@ -22,7 +22,7 @@ function Card (props) {
           <img  src={personImg} className="avatar" alt="Person Image"/>
           <img  src={personImg} className="avatar-2" alt="Person Image"/>
           <img  src={personImg} className="avatar-3" alt="Person Image"/>
-          <span className="people">{props.people == 3 ? '' : `+${props.people - 3}`}</span>
+          <span className="people">{props.people === 3 ? '' : `+${props.people - 3}`}</span>
           <Add />
         </div>
         <div className="views">
