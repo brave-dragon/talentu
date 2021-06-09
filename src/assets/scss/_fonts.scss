@@ -1,0 +1,36 @@
+@font-face{
+  font-family: futura-pt-demi;
+  src:url("../fonts/FuturaPTDemi.otf") format("opentype");
+}
+
+@font-face{
+  font-family: futura-pt-medium;
+  src:url("../fonts/FuturaPTMedium.otf") format("opentype");
+}
+
+@font-face{
+  font-family: sofia-pro-medium;
+  src:url("../fonts/Sofia\ Pro\ Medium\ Az.otf") format("opentype");
+}
+
+@font-face{
+  font-family: sofia-pro-semi-bold;
+  src:url("../fonts/Sofia\ Pro\ Semi\ Bold\ Az.otf") format("opentype");
+}
+
+@font-face{
+  font-family: sofia-pro-regular;
+  src:url("../fonts/Sofia\ Pro\ Regular\ Az.otf") format("opentype");
+}
+
+@font-face{
+  font-family: sofia-pro-bold;
+  src:url("../fonts/Sofia\ Pro\ Bold\ Az.otf") format("opentype");
+}
+
+$futura-pt-demi: 'futura-pt-demi';
+$sofia-pro-medium: 'sofia-pro-medium';
+$sofia-pro-semi-bold: 'sofia-pro-semi-bold';
+$sofia-pro-regular: 'sofia-pro-regular';
+$futura-pt-medium: 'futura-pt-medium';
+$sofia-pro-bold: 'sofia-pro-bold';

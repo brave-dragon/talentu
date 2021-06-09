@@ -1,0 +1,8 @@
+@import "../../assets//scss/colors";
+@import "../../assets//scss/fonts";
+
+.page-container {
+  height: calc(100vh - 60px );
+  background-color: $gray;
+  padding: 60px;
+}

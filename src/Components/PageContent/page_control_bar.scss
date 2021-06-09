@@ -1,0 +1,72 @@
+@import "../../assets//scss/colors";
+@import "../../assets//scss/fonts";
+
+.control-bar-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.page-info {
+  display: flex;
+  align-items: center;
+  color: $text-dark;
+
+  .page-title {
+    font-family: $sofia-pro-semi-bold;
+    font-size: 34px;
+    margin-right: 12px;
+  }
+}
+
+
+.select-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  font-family: $sofia-pro-semi-bold;
+  font-size: 14px;
+  margin: 0 12px;
+}
+
+.page-into-button-group {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+  .export-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 24px;
+
+    span {
+      font-family: $sofia-pro-regular;
+      font-size: 14px;
+      margin-top: 10px;
+      color: $gray-light;
+    }
+  }
+}
+
+.counter {
+  font-family: $sofia-pro-regular;
+  font-size: 14px;
+  margin-left: 8px;
+}
+
+.counter-active {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 28px;
+  height: 28px;
+  background-color: $blue;
+  color: $white;
+  border-radius: 5px;
+}
+
+.blue {
+  color: $blue;
+}

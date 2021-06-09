@@ -1,0 +1,13 @@
+@import "../../assets//scss/colors";
+@import "../../assets//scss/fonts";
+
+.account-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 95px;
+  height: 40px;
+  border: 1px solid $gray-light;
+  border-radius: 25px;
+  padding: 0 4px 0 16px;
+}

@@ -1,0 +1,68 @@
+@import "../../assets//scss/colors";
+@import "../../assets//scss/fonts";
+
+
+.sidebar {
+  width: 200px !important;
+  height: 100vh;
+  background-color: $primary-color;
+  // padding: 0 24px;
+  box-sizing: border-box;
+  position: relative;
+  
+  .logo {
+    font-family: $futura-pt-demi;
+    font-size: 28px;
+    color: $white;
+    padding: 48px 0;
+  }
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  font-family: $sofia-pro-medium;
+  font-size: 14px;
+  color: $white;
+  margin: 10px 0;
+  cursor: pointer;
+  padding: 0 24px;
+
+  span {
+    margin-left: 15px;
+  }
+}
+
+.menu-item:hover {
+  background-color: $blue-light;
+}
+
+.bottom-item {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  height: 60px;
+  font-family: $sofia-pro-medium;
+  font-size: 14px;
+  color: $white;
+  margin: 10px 0 0;
+  cursor: pointer;
+  padding: 0 24px;
+
+  span {
+    margin-left: 15px;
+  }
+}
+
+.bottom-item:hover {
+  background-color: $blue-light;
+}
+
+.menu-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+}

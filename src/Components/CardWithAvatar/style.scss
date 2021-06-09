@@ -1,0 +1,129 @@
+@import "../../assets//scss/colors";
+@import "../../assets//scss/fonts";
+
+.row-card {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 73px;
+  background-color: $white;
+  border-radius: 10px;
+  box-shadow: 0px 20px 40px #0000001A;
+  margin: 36px 0;
+  padding: 0 36px;
+
+}
+.card-title {
+  display: flex;
+  flex-direction: column;
+  margin-right: 90px !important;
+
+  .primary-title {
+    font-family: $sofia-pro-semi-bold;
+    font-size: 18px;
+    color: $text-dark;
+  }
+
+  .secondary-title {
+    font-family: $sofia-pro-regular;
+    font-size: 14px;
+    color: $text-gray;
+  }
+}
+
+.card-info-avatar-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-grow: 1;
+
+  .card-info {
+    display: flex;
+    justify-content: space-between;
+    width: 180px;
+
+    div {
+      font-family: $sofia-pro-regular;
+      font-size: 14px;
+      color: $text-gray;
+      margin: 0 14px;
+
+      :first-child {
+        font-family: $sofia-pro-semi-bold;
+        font-size: 18px;
+        color: $text-dark;
+        margin-right: 8px;
+      }
+    }
+  }
+
+  .avatar-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 126px;
+    position: relative;
+
+    .avatar {
+      margin-left: -12px;
+      position: absolute;
+      left: 12px;
+      z-index: 10;
+    }
+    .avatar-2 {
+      margin-left: -12px;
+      position: absolute;
+      left: 32px;
+      z-index: 9;
+    }
+
+    .avatar-3 {
+      margin-left: -12px;
+      position: absolute;
+      left: 52px;
+      z-index: 8;
+    }
+
+    .people {
+      font-family: $futura-pt-medium;
+      font-size: 16px;
+      color: $gray-light;
+      position: absolute;
+      left: 77px;
+    }
+  }
+}
+
+.views {
+  display: flex;
+  align-items: center;
+  width: 80px;
+
+  span {
+    font-family: $sofia-pro-semi-bold;
+    font-size: 20px;
+    color: $text-dark;
+    margin-left: 8px;
+  }
+}
+
+.card-buttons-avatar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 130px;
+}
+
+.chart-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 34px;
+  height: 34px;
+  background-color: $gray;
+  border-radius: 5px;
+}
+
+.blue {
+  color: $blue !important;
+}

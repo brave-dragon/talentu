@@ -1,0 +1,30 @@
+@import "../../assets//scss/colors";
+@import "../../assets//scss/fonts";
+
+.search-box {
+  display: flex;
+  align-items: center;
+  width: 450px;
+  height: 42px;
+  border-radius: 50px;
+  background-color: $gray;
+
+  img {
+    width: 18px;
+    height: 18px;
+    margin: 0 16px;
+  }
+
+  .search-input {
+    width: 100%;
+    border: none;
+    background-color: $gray;
+    outline: none;
+    font-family: $sofia-pro-medium;
+    
+  }
+
+  .search-input::-webkit-input-placeholder{
+    color: $gray-light;
+  }
+}
